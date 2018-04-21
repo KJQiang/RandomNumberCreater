@@ -1,6 +1,6 @@
 package ui_package;
 
-public class Mathnum {
+public class Mathnum { //Create a Random Number
 	int ini;
 	public Mathnum(int st) {
 		ini = st;
