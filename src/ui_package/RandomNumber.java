@@ -41,7 +41,7 @@ public class RandomNumber {
 				dci = true;
 				numin = enternum.getText();
 				bir = Integer.parseInt(numin);
-				new Thread(new Runnable() {
+				new Thread(new Runnable() { //start a new thread or the programm will be stopped here.
 					public void run() {
 						while(dci) {
 							Mathnum rn = new Mathnum(bir);
