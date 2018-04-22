@@ -61,6 +61,12 @@ public class RandomNumber {
 			public void actionPerformed(ActionEvent e) {
 				dci = false;
 				enternum.setText(bir+"");
+				res.setText("Result Here");
+			}
+		});
+		rec.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				res.setText(ac+"");
 			}
 		});
 	}
